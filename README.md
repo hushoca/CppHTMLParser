@@ -37,7 +37,7 @@ C++ HTML parsing code (One day It will grow up to be a library.), currently does
     --------------------------------
     Name is title
     Attributes are 
-    Value is TestPage
+    Value is Test Page
     Children count 0
     --------------------------------
     Name is html

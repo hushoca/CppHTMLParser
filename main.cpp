@@ -113,17 +113,21 @@ int main(int argCount, char **args){
 				activeState = INNER;
 			}
 			//tag end
-		}else if(currentChar == ' '){
-			//attribute start
-			if(activeState == TAG){
-				activeState = ATTR;
-			}
 		}else{
 			//routine inserting values into the struct
 			if(tagStack.empty()){
 				cout << "stack empty" << endl;
 				continue;
 			}
+
+			if(currentChar == ' '){
+				//attribute start
+				if(activeState == TAG){
+					activeState = ATTR;
+					continue;
+				}
+			}
+
 			switch(activeState){
 				case TAG:
 					tagStack.top()->name += currentChar;

@@ -16,13 +16,17 @@ The current version works as intended. Only thing it lacks is that there is no v
 **Example Input and Code**
 
     "<body style=\"color:#fff\">
-		<head><title>Test Page</title></head>
+		<head>
+			<title>Test Page</title>
+		</head>
+			
 		<html>
 			<p>
 				<b>Bla bla</b><i> ohhh yeaah</i><u> wuhuuuu</u>
 			</p>
 			<img src="test.png"/>
 		</html>
+		
 		</br>
 	</body>"
 

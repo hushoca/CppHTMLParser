@@ -7,7 +7,8 @@ The current version works as intended. Only thing it lacks is that there is no v
 
 - Implement a validator so that html can be used.
 - Implement a website fetcher
-- Bunch of bug fixes
+- Bunch of bug fixes (e.g. fix the bug where there is too much whitespace next to name [or just trim it])
+- Add the attribute parsing so that attributes can be taken from a map 
 - Documentation writing...
 
 ----------

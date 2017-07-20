@@ -19,8 +19,9 @@ The current version works as intended. Only thing it lacks is that there is no v
 		<head><title>Test Page</title></head>
 		<html>
 			<p>
-				<b>Bla bla</b><i> ohhh yeaah</i><u> wuhuuuu</u></p>
-				<img src="test.png"/>
+				<b>Bla bla</b><i> ohhh yeaah</i><u> wuhuuuu</u>
+			</p>
+			<img src="test.png"/>
 		</html>
 		</br>
 	</body>"
